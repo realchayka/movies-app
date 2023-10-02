@@ -1,0 +1,58 @@
+.filters {
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 2px 5px;
+  border-radius: 2px;
+  border: 1px solid #d9d9d9;
+  background: #fafafa;
+}
+
+.filters:not(:first-child) {
+  margin-left: 8px;
+}
+
+div:where(.css-dev-only-do-not-override-1vr7spz).ant-card .ant-card-body {
+  padding: 0;
+}
+
+.card-film-text {
+  white-space: wrap;
+  overflow: hidden;
+  text-overflow: clip;
+  word-wrap: break-word;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #e9d100;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.ant-card-body {
+  height: 100% !important;
+}
+
+.ant-rate-star {
+  margin-inline-end: 2px !important;
+  padding-bottom: 10px;
+}
+
+.filtersContainer {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+}
